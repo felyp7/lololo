@@ -6,7 +6,7 @@ const { ChatClient } = require("dank-twitch-irc"),
 
 let client = new ChatClient({
     username: "mldsbt", 
-    password: "oauth:lbdqs19etp8ytexgoz8se0bhzoy4up", 
+    password: "xd", 
 
     rateLimits: "verifiedBot",
     connection: {
