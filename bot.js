@@ -2,6 +2,7 @@ require('dotenv').config()
 const got = require('got')
 const { ChatClient, ClientError } = require('dank-twitch-irc'),
 	{ channel } = require('./settings.json')
+const humanizeDuration = require('humanize-duration')
 
 let client = new ChatClient({
 	username: 'mldsbt',
@@ -33,8 +34,6 @@ console.log(channel)
 console.log('connected')
 
 const runTime = new Date().toString()
-
-const humanizeDuration = require('humanize-duration')
 
 let counter = 0
 
