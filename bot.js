@@ -40,8 +40,6 @@ let client = new ChatClient({
     const runTime = new Date().toString()
     
     const humanizeDuration = require("humanize-duration");
-    
-    const roomStateTracker = new RoomStateTracker()
  
  
     let counter = 0;
